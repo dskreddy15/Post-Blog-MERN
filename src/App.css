@@ -1,0 +1,109 @@
+body{
+  color: #333;
+}
+
+a{
+  cursor: pointer;
+}
+img{
+  max-width: 100%;
+}
+main{
+  padding: 10px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+header{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+header a{
+  text-decoration: none;
+  color: inherit;
+}
+header a.logo{
+  font-weight: bold;
+}
+header nav{
+  display: flex;
+  gap: 15px;
+  margin-bottom: 10px;
+}
+
+div.post{
+  display: flex;
+  flex-wrap: wrap;
+  border: 1px solid #ccc; /* Adjust the border style, color, and width as needed */
+  padding: 10px; /* Add padding around the content */
+  margin: 20px; /* Add margin to space the box from other elements */
+  text-decoration: none;
+  color: inherit;
+}
+
+div.post img{
+  align-items: center;
+
+}
+
+div.text h2{
+  margin: 0;
+  font-size: 1rem;
+}
+
+form{
+  max-width: 400px;
+  margin: 0 auto; 
+}
+
+input{
+  display: block;
+  padding: 2px;
+  margin-bottom: 5px;
+  width: 100%;
+  border: 2px solid #ddd;
+  border-radius: 5px;
+  background-color: #fff;
+}
+button{
+  width: 100%;
+  display: block;
+  background-color: #555;
+  border:0;
+  color:#fff;
+  border-radius:5px;
+  padding: 7px 0;
+  cursor: pointer;
+}
+form.login h1, form.register h1{
+  text-align: center;
+}
+
+form.create {
+  max-width: 600px;
+  margin: 5px auto; 
+}
+
+div.post-page div.author{
+  margin: 5px;
+  color: darkgrey;
+}
+
+div.edit-row{
+  text-align: center;
+  margin-bottom: 20px;
+}
+div.post-page a.edit-btn{
+  background-color: #333;
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  color: #fff;
+  padding: 15px 30px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+a svg{
+  height:20px;
+}
